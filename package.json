@@ -68,9 +68,9 @@
     "lint": "node_modules/.bin/goodparts lib",
     "start": "node example/server.js",
     "report": "open coverage/lcov-report/index.html"
-  },
-  "pre-commit": [
-    "coverage",
-    "jshint"
-  ]
+  }
+//  "pre-commit": [
+//    "coverage",
+//    "jshint"
+//  ]
 }
